@@ -1,0 +1,14 @@
+{
+  "name": "parking-web-interface",
+  "version": "1.0.0",
+  "description": "Interfaz web para el sistema de parking inteligente",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.7.2"
+  }
+}
